@@ -35,51 +35,130 @@
     </style>
   </head>
   <body>
-    <!-- Comment #1 -->
     <div class="container">
-        <div class="box-1 boxstyle">
-        <button>+</button>
-        <button> 12</button>
-        <button>-</button>
-      <img src="./images/avatars/image-amyrobson.png" alt="profile" />
-      <span>amyrobson</span><span>1 month ago</span>
-        Impressive! Though it seems the drag feature could
-        be improved. But overall it looks incredible. You've nailed the design
-        and the responsiveness at various breakpoints works really well.
+
+    <!-- Comment #1 -->
+      <div class="box-1 boxstyle">
+        <div class="containBtns">
+          <button><img src="./images/icon-plus.svg" alt="icon-plus" /></button>
+          <span>12</span>
+          <button>
+            <img src="./images/icon-minus.svg" alt="icon-minus" />
+          </button>
+        </div>
+        <div class="containHeader">
+          <div>
+          <img
+            src="./images/avatars/image-amyrobson.png"
+            alt="profile"
+            width="30"
+            height="30"
+          /></div>
+          <div style="flex-grow: 1" class="headerName"><b>amyrobson</b></div>
+          <div style="flex-grow: 1" class="headerTime">1 month ago</div>
+          <div style="flex-grow: 8" class="headerReply">
+            <img src="./images/icon-reply.svg" alt="icon-reply" /> Reply
+          </div>
+        </div>
+        <div class="containText">
+          Impressive! Though it seems the drag feature could be improved. But
+          overall it looks incredible. You've nailed the design and the
+          responsiveness at various breakpoints works really well.
+        </div>
       </div>
-    <!-- Comment #2 -->
+
+      <!-- Comment #2 -->
       <div class="box-2 boxstyle">
-        <button>+</button>
-        <button> 5</button>
-        <button>-</button>
-        <img src="./images/avatars/image-maxblagun.png" alt="profile" />
-        maxblagun 2 weeks ago Woah, your project looks awesome! How long have
-        you been coding for? I'm still new, but think I want to dive into React
-        as well soon. Perhaps you can give me an insight on where I can learn
-        React? Thanks!
+        <div class="containBtns">
+          <button><img src="./images/icon-plus.svg" alt="icon-plus" /></button>
+          <span>5</span>
+          <button>
+            <img src="./images/icon-minus.svg" alt="icon-minus" />
+          </button>
+        </div>
+        <div class="containHeader">
+          <div>
+          <img
+            src="./images/avatars/image-maxblagun.png"
+            alt="profile"
+            width="30"
+            height="30"
+          /></div>
+          <div style="flex-grow: 1" class="headerName"><b>maxblagun</b></div>
+          <div style="flex-grow: 1" class="headerTime">2 weeks ago</div>
+          <div style="flex-grow: 8" class="headerReply">
+            <img src="./images/icon-reply.svg" alt="icon-reply" /> Reply
+          </div>
+        </div>
+        <div class="containText">
+          Woah, your project looks awesome! How long have
+          you been coding for? I'm still new, but think I want to dive into React
+          as well soon. Perhaps you can give me an insight on where I can learn
+          React? Thanks!
+        </div>
       </div>
-    <!-- Comment #3 (Reply to comment #2) -->
-    <div class="box-3 boxstyle">
-        <button><img src="./images/icon-plus.svg" alt="icon-plus"></button>
-        <button> 4</button>
-        <button><img src="./images/icon-minus.svg" alt="icon-minus"></button>
-        <img src="./images/avatars/image-ramsesmiron.png" alt="profile" />
-        ramsesmiron 1 week ago @maxblagun If you're still new, I'd recommend
-        focusing on the fundamentals of HTML, CSS, and JS before considering
-        React. It's very tempting to jump ahead but lay a solid foundation
-        first.
-    </div>
-    <!-- Comment #4 (Reply to comment #2) -->
-    <div class="box-4 boxstyle">
-        <button>+</button>
-        <button> 2</button>
-        <button>-</button>
-        <img src="./images/avatars/image-juliusomo.png" alt="profile" />
-        juliusomo 2 days ago @ramsesmiron I couldn't agree more with this.
-        Everything moves so fast and it always seems like everyone knows the
-        newest library/framework. But the fundamentals are what stay constant.
-    </div>
-  </div>
+
+      <!-- Comment #3 (Reply to comment #2) -->
+      <div class="box-3 boxstyle">
+        <div class="containBtns">
+          <button><img src="./images/icon-plus.svg" alt="icon-plus" /></button>
+          <span>4</span>
+          <button>
+            <img src="./images/icon-minus.svg" alt="icon-minus" />
+          </button>
+        </div>
+        <div class="containHeader">
+          <div>
+          <img
+            src="./images/avatars/image-ramsesmiron.png"
+            alt="profile"
+            width="30"
+            height="30"
+          /></div>
+          <div style="flex-grow: 1" class="headerName"><b>ramsesmiron</b></div>
+          <div style="flex-grow: 1" class="headerTime">1 week ago</div>
+          <div style="flex-grow: 8" class="headerReply">
+            <img src="./images/icon-reply.svg" alt="icon-reply" /> Reply
+          </div>
+        </div>
+        <div class="containText">
+          @maxblagun If you're still new, I'd recommend
+          focusing on the fundamentals of HTML, CSS, and JS before considering
+          React. It's very tempting to jump ahead but lay a solid foundation
+          first.
+        </div>
+      </div>
+
+      <!-- Comment #4 (Reply to comment #2) -->
+      <div class="box-4 boxstyle">
+        <div class="containBtns">
+          <button><img src="./images/icon-plus.svg" alt="icon-plus" /></button>
+          <span>4</span>
+          <button>
+            <img src="./images/icon-minus.svg" alt="icon-minus" />
+          </button>
+        </div>
+        <div class="containHeader">
+          <div>
+          <img
+            src="./images/avatars/image-juliusomo.png"
+            alt="profile"
+            width="30"
+            height="30"
+          /></div>
+          <div style="flex-grow: 1" class="headerName"><b>juliusomo</b></div>
+          <div style="flex-grow: 1" class="headerTime">2 days</div>
+          <div style="flex-grow: 8" class="headerReply">
+            <img src="./images/icon-reply.svg" alt="icon-reply" /> Reply
+          </div>
+        </div>
+        <div class="containText">
+          @ramsesmiron I couldn't agree more with this.
+          Everything moves so fast and it always seems like everyone knows the
+          newest library/framework. But the fundamentals are what stay constant.
+        </div>
+      </div>
+
     <div class="attribution">
       Challenge adapted from
       <a
