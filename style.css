@@ -37,6 +37,7 @@ body {
   border-radius: 5px;
   text-align: center;
   padding: 3px;
+  margin-top: 20px;
 }
 
 .containHeader {
@@ -57,6 +58,7 @@ body {
   float: right;
   padding: 3px;
   margin: 3px;
+  
 }
 
 button {
@@ -68,16 +70,24 @@ button {
 .headerName {
     text-align: left;
     padding-left: 10px;
+    padding-top: 5px;
     border: 1px solid black;
+    font-weight: bold;
 }
 
 .headerTime {
     text-align: left;
+    color: lightgray;
     border: 1px solid black;
+    padding-left: 3px;
+    padding-top: 5px;
 }
 
 .headerReply {
     text-align:right;
+    font-weight: bold;
+    color: blueviolet;
     border: 1px solid black;
+    padding-top: 5px;
 }
 
