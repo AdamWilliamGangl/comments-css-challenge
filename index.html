@@ -19,6 +19,8 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
 
     <title>CSS Challenge | Interactive comments section</title>
@@ -41,7 +43,7 @@
       <div class="box-1 boxstyle">
         <div class="containBtns">
           <button><img src="./images/icon-plus.svg" alt="icon-plus" /></button>
-          <span>12</span>
+          <span class="counterDisplay">12</span>
           <button>
             <img src="./images/icon-minus.svg" alt="icon-minus" />
           </button>
@@ -71,7 +73,7 @@
       <div class="box-2 boxstyle">
         <div class="containBtns">
           <button><img src="./images/icon-plus.svg" alt="icon-plus" /></button>
-          <span>5</span>
+          <span class="counterDisplay">5</span>
           <button>
             <img src="./images/icon-minus.svg" alt="icon-minus" />
           </button>
@@ -102,7 +104,7 @@
       <div class="box-3 boxstyle">
         <div class="containBtns">
           <button><img src="./images/icon-plus.svg" alt="icon-plus" /></button>
-          <span>4</span>
+          <span class="counterDisplay">4</span>
           <button>
             <img src="./images/icon-minus.svg" alt="icon-minus" />
           </button>
@@ -122,7 +124,7 @@
           </div>
         </div>
         <div class="containText">
-          @maxblagun If you're still new, I'd recommend
+          <span class="replyName">@maxblagun</span> If you're still new, I'd recommend
           focusing on the fundamentals of HTML, CSS, and JS before considering
           React. It's very tempting to jump ahead but lay a solid foundation
           first.
@@ -133,7 +135,7 @@
       <div class="box-4 boxstyle">
         <div class="containBtns">
           <button><img src="./images/icon-plus.svg" alt="icon-plus" /></button>
-          <span>2</span>
+          <span class="counterDisplay">2</span>
           <button>
             <img src="./images/icon-minus.svg" alt="icon-minus" />
           </button>
@@ -153,9 +155,29 @@
           </div>
         </div>
         <div class="containText">
-          @ramsesmiron I couldn't agree more with this.
+          <span class="replyName">@ramsesmiron</span> I couldn't agree more with this.
           Everything moves so fast and it always seems like everyone knows the
           newest library/framework. But the fundamentals are what stay constant.
+        </div>
+      </div>
+
+      <!-- Comment Box -->
+      <div class="box-5 boxstyle">
+        <div class="commentBoxPic">
+          <img
+          src="./images/avatars/image-juliusomo.png"
+          alt="profile"
+          width="30"
+          height="30"
+        />
+        </div>
+        <div class="containHeader">
+          <div style="flex-grow: 8" class="headerReply">
+            <input type="text" placeholder="Add a comment..." >
+          </div>
+          <div style="flex-grow: 2" class="headerName"> <button class="btn btn-primary">Send</button></div>
+        </div>
+        <div class="containText">
         </div>
       </div>
 
